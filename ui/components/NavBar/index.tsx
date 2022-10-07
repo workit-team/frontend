@@ -14,7 +14,7 @@ export const NavBar: FC = () => {
   const ref = useRef(null);
   const callback = (entries: IntersectionObserverEntry[]) => {
     entries.forEach((entry: IntersectionObserverEntry) => {
-      if(entry.isIntersecting) {
+      if(entry.) {
         entry.target.classList.add("dark-1");
       } else {
         entry.target.classList.remove("dark-1");
