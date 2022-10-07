@@ -1,0 +1,20 @@
+.dropMenu {
+    position: absolute;
+    transform: translateY(5.3rem);
+    width: 100%;
+    overflow: auto;
+    left: 0;
+    z-index: 4;
+  }
+  
+  .dropItem {
+    cursor: pointer;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  
+  .dropItem:hover {
+    background-color: #E1D89F
+  }
